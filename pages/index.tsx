@@ -41,8 +41,11 @@ const Home: NextPage<HomePageProps> = ({ user }) => {
       </Head>
 
       <div className={styles.container}>
-        <main className={styles.main}>
-          <form onSubmit={form.onSubmit(handleSubmit)} style={{ width: 400 }}>
+        <main className={styles.main} style={{ maxWidth: 400, margin: 20 }}>
+          <form
+            onSubmit={form.onSubmit(handleSubmit)}
+            style={{ width: "100%" }}
+          >
             <TextInput
               required
               label="Имя пользователя"
