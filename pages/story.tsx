@@ -207,7 +207,7 @@ const Story: NextPage<HomePageProps> = ({ users }) => {
                   <List.Item>
                     Хотел(а) ли б ты встретиться на кофе и поговорить об этом?
                   </List.Item>
-                  <List.Item>Как нам с тобой можно связаться?'</List.Item>
+                  <List.Item>Как нам с тобой можно связаться?</List.Item>
                   <List.Item>
                     Принял(а) ли ты решение следовать за Иисусом Христом?
                   </List.Item>
